@@ -1,0 +1,235 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 3em;
+    margin-bottom: 10em;
+    color: white;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.contact-message h1 {
+    font-family: 'cinzel', serif;
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.contact-message h2 {
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contact-box {  
+   min-height: 400px; 
+   display: flex;
+   justify-content: space-evenly;
+   font-family: 'Quicksand', sans-serif;   
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+.contact-info .infobox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.contact-info .icon {
+    color: black;
+    font-size: 1.5em;
+    background-color: white;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contact-info .socialbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+.contact-info .social-icon-fb {
+    color: white;
+    background: #3b5998;
+    font-size: 1.5em;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.contact-info .social-icon-fb:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.contact-info .social-icon-twitter {
+    color: white;
+    background: #1DA1F2;
+    font-size: 1.5em;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.contact-info .social-icon-twitter:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.contact-info .social-icon-insta {
+    color: white;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    font-size: 1.5em;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.contact-info .social-icon-insta:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+
+.contact-info .text h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-left: 1em;
+    margin-bottom: .25em;
+}
+
+.contact-info .text p {
+    font-size: 1.10em;
+    padding-left: 1em;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 1em 3em;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.contact-form .form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .form-box .inputbox {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.contact-form .form-box .inputbox input, 
+.contact-form .form-box .inputbox textarea 
+ {
+    width: 100%;
+    padding: .5em 0;
+    margin: .25em 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .form-box .inputbox textarea {
+    margin-top: 1em;
+}
+
+.contact-form .form-box .inputbox input:focus {
+    border-bottom: 2px solid #1DA1F2;
+    padding-bottom: 1em;
+    transition: .5s;
+} 
+
+.contact-form .form-box .inputbox textarea:focus {
+    border-bottom: 2px solid #1DA1F2;
+    padding-bottom: 1em;
+    transition: .5s;
+}
+
+.contact-form .form-box .inputbox input[type="submit"] {
+    width: 100px;
+    background: #1DA1F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media all and (max-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 1em;
+        margin-bottom: 2em;
+        color: white;
+    }
+    
+    .contact-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0em;
+    }
+    
+    .contact-message h1 {
+        font-family: 'cinzel', serif;
+        font-size: 3em;
+        margin-bottom: .5em;
+    }
+    
+    .contact-message h2 {
+        font-family: 'quicksand', sans-serif;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    
+    .contact-box {  
+       min-height: 400px; 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Quicksand', sans-serif;   
+    }
+}
