@@ -305,7 +305,7 @@ label #sign-two{
 
 .about-wrapper {
     margin: 0em auto;
-    width: 100%;
+    width: 95%;
 } 
 
 .about-title {
@@ -488,14 +488,14 @@ label #sign-two{
 }
 
 .service {
-    width: 100%;
-    padding: .5em;
+    width: 95%;
+    padding: 1em;
     background-color: white;
     margin-bottom: 0;
     transition: 1.5s;
 }
 
-.service img {
+.service img {.5
     height: 100px;
     width: 100px;
     display: block;
@@ -857,7 +857,7 @@ background: white;
 transition: 1s;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 999px) {
     .portfolio-title {
         font-size: 3em;
     }
@@ -874,7 +874,7 @@ transition: 1s;
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 650px) {
     .portfolio-title {
         font-size: 2em;
     }
@@ -1332,15 +1332,11 @@ footer {
     color: white;
     text-decoration: underline;
 }
+
 @media all and (max-width: 768px) {
     .footer-container {
-        justify-content: space-around;
-    }  
-}
-
-@media all and (max-width: 700px) {
-    .footer-container {
         flex-direction: column;
+        justify-content: space-around;
     }
     .footer-contact {
         display: flex;
@@ -1350,11 +1346,13 @@ footer {
     }
     
     .footer-contact h2 {
-        margin-bottom: 1em;
+        font-size: 2.5em;
+        margin-bottom: .5em;
         letter-spacing: 5px;
     }
     .footer-contact table {
-        margin-bottom: 1.5em;
+        margin-bottom: 3em;
+        font-size: 1.25em;
     }
     
     .footer-links {
@@ -1362,16 +1360,28 @@ footer {
     }
 
     .footer-links h2 {
+        font-size: 2.5em;
         margin-bottom: .5em;
+        letter-spacing: 7px;
+        margin: .25em 0 .5em 0;
+    }
+
+    .footer-links li {
+        padding-bottom: 10px;
+    }
+
+    .footer-links a {
+        font-size: 1.25em;
         letter-spacing: 5px;
     }
 
     .footer-branding {
-        margin-top: 4em;
+        margin-top: 2.5em;
         align-items: center;
     }
 
     .footer-branding h2 {
-        letter-spacing: 2px;
+        font-size: 2em;
+        letter-spacing: 5px;
     }
 }
