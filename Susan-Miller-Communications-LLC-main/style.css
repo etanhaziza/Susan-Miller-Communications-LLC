@@ -882,6 +882,10 @@ transition: 1s;
     margin: 0 1em 1.5em 1em;
     }
     
+    .flip-card:hover .flip-card-inner {
+        transform: none;
+        cursor: pointer;
+    }
     .flip-card-front .res-link {
         display: block;
     }
